@@ -18,6 +18,7 @@ LANG=C sudo pacman -S \
 	lua51 \
 	luacheck \
 	luarocks \
+	man-db \
 	neofetch \
 	neovim \
 	nodejs \
