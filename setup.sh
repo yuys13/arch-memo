@@ -26,6 +26,7 @@ LANG=C sudo pacman -S \
 	rustup \
 	shellcheck \
 	shfmt \
+	skktools \
 	stylua \
 	tailscale \
 	tig \
