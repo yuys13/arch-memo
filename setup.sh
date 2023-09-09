@@ -6,7 +6,7 @@ LANG=C sudo pacman -S \
 	alacritty \
 	bat \
 	curl \
-	exa \
+	eza \
 	fd \
 	fish \
 	fisher \
