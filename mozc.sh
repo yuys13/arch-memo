@@ -2,7 +2,7 @@
 
 set -ue pipefail
 
-sudo pacman -S fcitx5-mozc fcitx5-qt fcitx5-gtk fcitx5-configtool
+sudo pacman -S --noconfirm fcitx5-mozc fcitx5-qt fcitx5-gtk fcitx5-configtool
 
 cat <<EOF >>~/.xprofile
 export GTK_IM_MODULE=fcitx

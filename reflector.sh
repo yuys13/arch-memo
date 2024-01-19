@@ -2,7 +2,7 @@
 
 set -ue pipefail
 
-sudo pacman -S reflector
+sudo pacman -S --noconfirm reflector
 
 sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak
 sudoedit /etc/xdg/reflector/reflector.conf

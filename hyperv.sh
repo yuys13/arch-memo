@@ -2,7 +2,7 @@
 
 set -ue pipefail
 
-sudo pacman -S hyperv
+sudo pacman -S --noconfirm hyperv
 
 sudo systemctl enable --now hv_fcopy_daemon.service
 sudo systemctl enable --now hv_kvp_daemon.service

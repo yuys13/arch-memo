@@ -2,7 +2,9 @@
 
 set -ue pipefail
 
-LANG=C sudo pacman -S \
+LANG=C sudo pacman -Syu --noconfirm
+
+LANG=C sudo pacman -S --noconfirm \
 	alacritty \
 	bat \
 	curl \
@@ -50,12 +52,12 @@ cd "$tempdir"
 
 git clone https://aur.archlinux.org/yay.git
 cd yay
-LANG=C makepkg -si
+LANG=C makepkg -si --noconfirm
 
 cd "$workdir"
 rm -rf "$tempdir"
 
-LANG=C yay -S \
+LANG=C yay -S --noconfirm \
 	actionlint \
 	ghq \
 	gitlint \

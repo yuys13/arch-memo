@@ -5,7 +5,7 @@ ROFICONFDIR="$HOME/.config/rofi"
 
 set -ue pipefail
 
-sudo pacman -S rofi arandr
+sudo pacman -S --noconfirm rofi arandr
 
 echo export TERMINAL=alacritty >>~/.xprofile
 
