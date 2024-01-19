@@ -67,3 +67,5 @@ LANG=C yay -S --noconfirm \
 	ttf-hackgen \
 	visual-studio-code-bin \
 	zsh-theme-powerlevel10k-git
+
+LANG=C yay --devel --save
