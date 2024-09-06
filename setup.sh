@@ -9,6 +9,7 @@ LANG=C sudo pacman -S --noconfirm \
 	bat \
 	curl \
 	eza \
+	fastfetch \
 	fd \
 	fish \
 	fisher \
@@ -21,7 +22,6 @@ LANG=C sudo pacman -S --noconfirm \
 	luacheck \
 	luarocks \
 	man-db \
-	neofetch \
 	neovim \
 	nodejs \
 	ripgrep \
