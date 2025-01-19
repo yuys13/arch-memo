@@ -18,14 +18,12 @@ LANG=C sudo pacman -S --noconfirm \
 	github-cli \
 	go \
 	htop \
-	lua51 \
-	luacheck \
-	luarocks \
 	man-db \
 	neovim \
 	nodejs \
 	ripgrep \
 	rustup \
+	selene \
 	shellcheck \
 	shfmt \
 	skktools \
